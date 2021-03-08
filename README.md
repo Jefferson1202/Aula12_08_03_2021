@@ -1,4 +1,4 @@
-# Introdução ao ASP.NET Core MVC
+# Primeiro CRUD utilizando MVC
 Projeto foi construido com base no tutorial disponivel no site da Microsoft:
 * [Tutorial](https://docs.microsoft.com/pt-br/aspnet/core/tutorials/first-mvc-app/start-mvc?view)
 
@@ -17,6 +17,15 @@ Projeto foi construido com base no tutorial disponivel no site da Microsoft:
 # SDK 
 * v5.0.3
 
+# Pacotes NuGet necessários
+* dotnet tool install --global dotnet-ef
+* dotnet tool install --global dotnet-aspnet-codegenerator
+* dotnet add package Microsoft.EntityFrameworkCore.SQLite
+* dotnet add package Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
+* dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+* dotnet add package Microsoft.EntityFrameworkCore.Design
+* dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+* dotnet add package Microsoft.Extensions.Logging.Debug
 
 # Linguagens
 * C#
